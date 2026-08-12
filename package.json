@@ -1,0 +1,9 @@
+{
+  "name": "content-rating-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix content_rating run dev -- --host 0.0.0.0 --port 5173",
+    "build": "npm --prefix content_rating run build",
+    "preview": "npm --prefix content_rating run preview"
+  }
+}
